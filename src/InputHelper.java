@@ -5,7 +5,7 @@ public class InputHelper {
         //Test Methods
         Scanner scan = new Scanner(System.in);
         System.out.println(getInt(scan, "Please enter an int value."));
-        System.out.println(num);
+        System.out.println(getInt);
     }
 
     //This Method Loops until a valid integer input is received. Returns int value.
